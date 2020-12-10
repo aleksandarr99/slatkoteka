@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: sans-serif;
+    
+   
+}
+.banner{
+    height: 60vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('https://vojvodina.travel/media/2019/02/slatkoteka-krofne-novi-sad-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+
+}
+.banner h1{
+   padding: 20vh 0 60px 0;
+   font-size: 72px;
+   text-shadow: 2px 2px black;
+   margin: 0;
+}
+.naslov{
+    font-size: 50px;
+    text-align: center;
+    color:black;
+    font-family: sans-serif;
+    justify-content: center;
+   
+}
+.page-content{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.grid{
+    display: grid;
+    width: 114rem;
+    grid-gap:6rem;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    align-items: start;
+
+}
+.grid-item{
+    background-color: #fff;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6 rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition:0.2s;
+}
+.grid-item:hover{
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+.card-img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-content{
+    padding: 3rem;
+
+}
+.card-header{
+    font-size: 3rem;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 1.5rem;
+
+}
+.card-text{
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.7;
+    color:black;
+    margin-bottom: 2.5rem;
+}
+@media only screen and (max-width:60em){
+    .page-content{
+        padding: 3rem;
+    }
+    .grid{
+        grid-gap:3rem;
+    }
+} 

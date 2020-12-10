@@ -1,0 +1,92 @@
+.roditelj div{
+    color: black;
+    background-color: whitesmoke;
+    margin: 3px;
+    align-content: center;
+}
+.roditelj{
+    display: flex;
+    /* flex-wrap: wrap;
+    width: 30%; */
+}
+/* #dete0{
+    float: 1;
+} */
+
+#dete1{
+
+    flex: 2;
+}
+
+#dete2{
+
+    flex: 1;
+    color: violet;
+    text-align: center;
+
+}
+
+#dete2 p:hover{
+    color: rebeccapurple;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+#slika1:hover{
+    color: slateblue;
+}
+
+*{
+    padding: 0px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.cc{
+    width: 64%;
+    
+    margin: auto;
+    border: 5px solid pink; 
+    overflow: hidden;
+    position: relative;
+}
+
+.cs{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    
+    
+}
+
+.zaglavlje{
+    background-color: white;
+   
+    
+
+}
+
+
+
+#prevBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 100;
+    left: 5%;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+}
+
+#nextBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 100;
+    right: 5%;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+}
+

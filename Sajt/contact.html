@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slatkoteka|Kontakt</title>
+    <link rel="stylesheet" href="css/contact.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/javascript.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js" ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/contact.jss"></script>
+</head>
+<body>
+    <script src="js/contact.js"></script>
+      <nav class="navBar">
+
+        <div class="logo">
+            <img src="img/Slatkoteka-logo-sajt.png" alt="Slika nije ucitana">
+        </div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navBarLinks">
+            <ul>
+                <li><a href="home.html">POCETNA</a></li>
+                <li><a href="about.html">O NAMA</a></li>
+                <li><a href="gallery.html">PONUDA</a></li>
+                <li><a href="contact.html">KONTAKT</a></li>
+            </ul>
+        </div>
+      </nav> 
+   <!--<div class="page-content"> 
+    
+  </div> -->
+    <section class="kontakt">
+        <div class="sadrzaj">
+            <h2>Kontaktiraj nas</h2>
+            <p>Pošalji nam poruku i postani korak bliže svojim omiljenim krofnama.</p>
+</div>
+
+<div class="kontejner">
+    <div class="kontaktInfo">
+        <div class="box">
+            <div class="ikonica">
+                <img src="img/mapa.png"  width="15px" height="15px"></img>
+            </div>
+            <div class="tekst">
+            <h3> Adresa </h3>
+            <p>Bulevar kralja Aleksandra 52 <br> Beograd, Srbija </p>
+        </div>
+        
+    </div>
+
+        <div class="box">
+            <div class="ikonica">
+                <img src="img/telefon.png" width="15px" height="15px"></img>
+            </div>
+            <div class="tekst">
+            <h3> Telefon </h3>
+            <p> +381 65 33 00 508 <br> </p>
+        </div>
+        </div>
+
+        <div class="box">
+            <div class="ikonica">
+                <img src="img/email.png"  width="15px" height="15px"></img>
+            </div>
+            <div class="tekst">
+            <h3> Email </h3>
+            <p> slatkoteka@slatkoteka.rs <br> </p>
+        </div>
+        </div>
+
+    </div>
+
+</div>
+
+<form name="forma"class="kontaktForma">
+    <h2>Pošalji nam poruku</h2>
+    <div class="inputBox">
+        <label>Ime i prezime</label>
+        <input type="text" name="imeprezime">
+    </div>
+   
+    <div class="inputBox">
+        <label>Email</label>
+        <input type="text" name="mejl" id="email">
+    </div>
+
+    <div class="inputBox">
+        <label>Poruka</label>
+        <textarea></textarea>       
+    </div>
+
+    <div class="news">
+        <label>Kako biste ocenili naš asortiman?</label><br><br>
+        <input type="radio" id="asort1" name="oznaka" value="1">1
+        <input type="radio" id="asort2" name="oznaka" value="2">2
+        <input type="radio" id="asort3" name="oznaka" value="3">3
+        <input type="radio" id="asort4" name="oznaka" value="4">4
+        <input type="radio" id="asort5" name="oznaka" value="5">5
+    </div>
+    <br><br>
+
+    <label>Da li ste preplaćeni na naš Newsletter?</label><br>
+    <br>
+    <select id="utisak">
+        <option value="da">Jesam</option>
+        <option value="ne">Nisam</option>
+    </select><br><br>
+
+    <div>
+        <input type="submit" class="Andj" value="Pošalji">
+        <input type="reset" class="Andj" value="Resetuj">
+    </div>
+
+        
+    </div>
+
+
+</form>
+
+</div>   </section>
+</div>
+
+ 
+ <footer>
+  <div class="footer-container">
+    <div class="left-col">
+      <img src="img/Slatkoteka-logo-sajt.png" alt="Slika nije ucitana" class="logo">
+      <div class="social-media">
+        <a href="https://www.facebook.com/Slatkoteka/"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/slatkoteka/"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/slatkoteka"><i class="fa fa-youtube"></i></a>
+        <a href="https://www.linkedin.com/company/slatkoteka"><i class="fa fa-linkedin"></i></a>
+      </div>
+    </div>
+    <div class="right-col">
+      <h1>Prijava za Newsletter</h1>
+      <div class="border"></div>
+      <p>Unesite mejl kako bi dobijali novosti</p>
+      <form action="" class="newsletter-form">
+        <input type="text" class="txt" placeholder="Unesite mejl">
+        <input type="submit" class="btn" value="Posalji">
+      </form>
+    </div>
+  </div>
+</footer> 
+</body>
+</html>

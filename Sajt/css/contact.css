@@ -1,0 +1,212 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+
+}
+
+
+.kontakt{
+
+position: relative;
+min-height: 100vh;
+padding: 50px, 100px;
+justify-content: center;
+display: flex;
+align-items: center;
+flex-direction: column;
+
+
+}
+
+.kontakt .sadrzaj {
+
+    max-width: 800px;
+    text-align: center;
+}
+
+.kontakt .sadrzaj h2{
+
+    font-size: 36px;
+    margin-top: 30px;
+
+}
+
+.kontakt .sadrzaj p{
+    font-weight: 300;
+   
+}
+
+.kontejner{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+
+
+}
+
+.kontejner .kontaktInfo{
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.kontejner .kontaktInfo .box{
+
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+
+}
+
+.kontejner .kontaktInfo .box .ikonica{
+
+    min-width: 60px;
+    height: 60px;
+    background: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+
+}
+
+.kontejner .kontaktInfo .box .tekst {
+
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.kontejner .kontaktInfo .box .tekst h3 {
+
+    font-weight: 1500;
+    color: palevioletred;
+}
+
+.kontaktForma{
+
+    width: 40%;
+    padding: 40px;
+    background: palevioletred;
+
+}
+
+.kontaktForma h2{
+
+    color:white;
+    margin-bottom: 30px;
+
+
+}
+
+.kontaktForma .inputBox {
+
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.kontaktForma .inputBox input,
+.kontaktForma .inputBox textarea {
+
+width: 100%;
+padding: 5px 0;
+font-size: 16px;
+margin: 20px 0;
+border:none;
+border-radius: 10px;
+border-bottom: 2px solid whitesmoke;
+outline: none;
+resize:none;
+}
+
+.kontaktForma .inputBox label{
+
+    font-size: 16px;
+    color:black;
+    font-style: italic;
+
+}
+
+
+.Andj {
+
+    width: 100%;
+    background:rgb(59, 9, 59);
+    color: white;
+    border:none;
+    border-radius:10px ;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+
+#utisak{
+
+    background-color:rgb(248, 190, 209);
+    color: black;
+    padding: 12px;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 15px;
+    outline: none;
+}
+
+input[type=radio] {
+    margin: 0px 10px 0px 10px;
+}
+
+@media(max-width: 991 px){
+
+    .kontakt{
+        padding: 50px;
+    }
+
+    .kontejner{
+
+        flex-direction: column;
+    }
+
+    .kontejner .kontaktInfo{
+
+        margin-bottom: 40px;
+    }
+
+    .kontejner .kontaktInfo{
+
+        width: 100%;
+    }
+    input[type="reset"]{
+
+        width: 100px;
+        background:rgb(59, 9, 59);
+        color: white;
+        border:none;
+        cursor: pointer;
+        padding: 10px;
+        font-size: 18px;
+        margin-bottom: 10px;
+        border-radius:10px ;
+    
+    }
+    
+
+
+}
